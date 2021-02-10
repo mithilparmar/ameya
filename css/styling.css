@@ -233,7 +233,7 @@ body, html {
 }
 
 .partner-content-center {
-    width: 70%;
+    width: 90%;
     top: 50%;
     margin: auto;
     -ms-transform: translateY(-50%);
@@ -324,4 +324,35 @@ body, html {
 
 .market-column-3 p {
     text-align: center;
+}
+
+
+.partner-column-4 {
+    float: left;
+    width: 16.66%;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.partner-column-3 {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.partner-icon img {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.partner-column-3 p {
+    text-align: center;
+    text-justify: none;
 }
