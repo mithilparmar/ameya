@@ -83,6 +83,36 @@ body, html {
 }
 
 
+.content-blue {
+    padding: 10px 100px 20px 100px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 18px;
+    background-color: #20639B;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    content: "";
+}
+
+
+.content-grey {
+    padding: 10px 100px 30px 100px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 18px;
+    background-color: #b4b4b4;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 .footer {
     position: relative;
     left: 0;
@@ -103,6 +133,22 @@ body, html {
     width: 25%;
     padding: 10px;
     height: 350px;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.market-column-4 {
+    float: left;
+    width: 16.66%;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.market-column-3 {
+    float: left;
+    width: 20%;
+    padding: 10px;
     font-size: 12px;
     line-height: 1;
 }
@@ -170,10 +216,46 @@ body, html {
     color: #FFFFFF;
 }
 
+.market-content-center {
+    width: 50%;
+    top: 50%;
+    margin: auto;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    color: #000000;
+}
+
 .market-image {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.partner-content-center {
+    width: 70%;
+    top: 50%;
+    margin: auto;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    color: #000000;
+}
+
+.partner-logo {
+    float: left;
+    position: relative;
+}
+
+.partner-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.partner-content-center img {
+    width: 300px;
+    padding: 50px;
 }
 
 .stretch {
@@ -210,4 +292,36 @@ body, html {
     background-color: #F6D55C;
     color:#FFFFFF;
     border: 2px solid #F6D55C;
+}
+
+.contact-us-button {
+    background-color: transparent;
+    color: #FFFFFF; 
+    border: 2px solid #FFFFFF;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.contact-us-button:hover {
+    background-color: #F6D55C;
+    color:#FFFFFF;
+    border: 2px solid #F6D55C;
+}
+
+
+.market-icon img {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.market-column-3 p {
+    text-align: center;
 }
