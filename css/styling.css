@@ -363,7 +363,16 @@ body, html {
     height: 100vh;
     background-attachment: fixed;
     background-position: top center;
+    background-repeat: no-repeat;
     background-size: cover;
+}
+
+.parallax .bg_one {
+    background-image: url("../img/how_we_partner/1.1.png");
+}
+
+.parallax .bg_onex {
+    background-image: url("../img/how_we_partner/1.1_xray.png");
 }
 
 .parallax .bg_two {
@@ -374,10 +383,26 @@ body, html {
     background-image: url("../img/how_we_partner/2.1_xray.png");
 }
 
+.parallax .bg_three {
+    background-image: url("../img/how_we_partner/3.1.png");
+}
+
+.parallax .bg_threex {
+    background-image: url("../img/how_we_partner/3.1_xray.png");
+}
+
 .parallax .bg_four {
-    background-image: url("../img/how_we_partner/4.png");
+    background-image: url("../img/how_we_partner/4.1.png");
 }
 
 .parallax .bg_fourx {
-    background-image: url("../img/how_we_partner/4_xray.png");
+    background-image: url("../img/how_we_partner/4.1_xray.png");
+}
+
+.parallax .bg_five {
+    background-image: url("../img/how_we_partner/5.1.png");
+}
+
+.parallax .bg_fivex {
+    background-image: url("../img/how_we_partner/5.1_xray.png");
 }
