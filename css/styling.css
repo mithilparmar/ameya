@@ -356,3 +356,28 @@ body, html {
     text-align: center;
     text-justify: none;
 }
+
+
+.parallax [class*="bg_"] {
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+}
+
+.parallax .bg_two {
+    background-image: url("../img/how_we_partner/2.1.png");
+}
+
+.parallax .bg_twox {
+    background-image: url("../img/how_we_partner/2.1_xray.png");
+}
+
+.parallax .bg_four {
+    background-image: url("../img/how_we_partner/4.png");
+}
+
+.parallax .bg_fourx {
+    background-image: url("../img/how_we_partner/4_xray.png");
+}
