@@ -66,7 +66,7 @@ body, html {
 
 .navbar a.active {
     color: #20639B;
-    border-bottom: 5px solid #20639B;
+    border-bottom: 5px solid #20639B;z
 }
   
 
@@ -184,6 +184,17 @@ body, html {
 
 
 .content hr{
+    height: 4px;
+    border-width: 0;
+    color: #F6D55C;
+    background-color: #F6D55C;
+    width: 500px;
+    float: left;
+    margin-top: -20px;
+}
+
+
+.content-blue hr{
     height: 4px;
     border-width: 0;
     color: #F6D55C;
@@ -405,4 +416,125 @@ body, html {
 
 .parallax .bg_fivex {
     background-image: url("../img/how_we_partner/5.1_xray.png");
+}
+
+
+.contact-us-dot {
+    height: 15px;
+    width: 15px;
+    background-color: #dfdfdf;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.vl {
+    border-left: 1px solid #dfdfdf;
+    height: 180px;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    margin-top: -10px;
+}
+
+
+.tablink {
+    background-color: #FFFFFF;
+    color: #000000;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 150px;
+}
+
+.tablink:hover {
+    color: #20639B;
+}
+
+.tabcontent {
+    color: #000000;
+    display: none;
+    height: 100%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #b4b4b4;
+    font-family: 'Questrial', sans-serif;
+    width: 600px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+input[type=text]:focus {
+    background-color: #dfdfdf;
+    border: none;
+}
+
+input[type=text]:hover {
+    background-color: #dfdfdf;
+}
+
+input[type=email] {
+    border: none;
+    border-bottom: 2px solid #b4b4b4;
+    font-family: 'Questrial', sans-serif;
+    width: 600px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+input[type=email]:focus {
+    background-color: #dfdfdf;
+    border: none;
+}
+
+input[type=email]:hover {
+    background-color: #dfdfdf;
+}
+
+input[type=submit] {
+    background-color: transparent;
+    color: #20639B; 
+    border: 2px solid #20639B;
+    border-radius: 20px;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #F6D55C;
+    color:#FFFFFF;
+    border: 2px solid #F6D55C;
+}
+
+textarea {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+textarea:hover {
+    background-color: #dfdfdf;
+}
+
+textarea:focus {
+    background-color: #dfdfdf;
+}
+
+label {
+    width: 600px;
+    font-size: 14px;
+    padding: 10px;
 }
