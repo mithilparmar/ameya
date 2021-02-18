@@ -14,7 +14,7 @@ $country = $_POST['country'];
 if(empty($name)||empty($visitor_email)||empty($message)||empty($company)||empty($designation))
 {
     echo '<script>alert("Please fill all the mandatory fields!")</script>';
-    exit;
+    exit();
 }
 
 $email_from = 'sushmitbafna@ameyaindia.com';

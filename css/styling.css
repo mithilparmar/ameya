@@ -204,6 +204,16 @@ body, html {
     margin-top: -20px;
 }
 
+.content-grey hr{
+    height: 4px;
+    border-width: 0;
+    color: #F6D55C;
+    background-color: #F6D55C;
+    width: 500px;
+    float: left;
+    margin-top: -20px;
+}
+
 
 .market-content-right {
     width: 38%;
@@ -537,4 +547,22 @@ label {
     width: 600px;
     font-size: 14px;
     padding: 10px;
+}
+
+
+.content-grey a:link {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.content-grey a:visited {
+    color: #000000;
+}
+
+.content-grey a:hover {
+    color: #20639B;
+}
+
+.content-grey a:active {
+    color: #000000;
 }
