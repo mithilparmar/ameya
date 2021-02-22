@@ -239,10 +239,10 @@ body, html {
 
 .market-content-center {
     width: 50%;
-    top: 50%;
     margin: auto;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
     position: relative;
     color: #000000;
 }
@@ -255,10 +255,10 @@ body, html {
 
 .partner-content-center {
     width: 90%;
-    top: 50%;
     margin: auto;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
     position: relative;
     color: #000000;
 }
@@ -344,6 +344,11 @@ body, html {
 
 
 .market-column-3 p {
+    text-align: center;
+}
+
+
+.market-column-4 p {
     text-align: center;
 }
 
