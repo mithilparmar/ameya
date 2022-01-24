@@ -32,7 +32,7 @@ body, html {
     float: left;
     color: #000000;
     text-align: center;
-    padding: 30px 20px 30px 20px;
+    padding: 40px 20px 40px 20px;
     text-decoration: none;
     font-size: 18px;
     height: 100%;
@@ -53,7 +53,7 @@ body, html {
 
 
 #logoimg {
-    height: 55px;
+    height: 75px;
     transition: 0.4s;
     vertical-align: middle;
 }
@@ -66,7 +66,8 @@ body, html {
 
 .navbar a.active {
     color: #20639B;
-    border-bottom: 5px solid #20639B;z
+    border-bottom: 5px solid #20639B;
+    background-color: #ffffff;
 }
   
 
@@ -135,6 +136,32 @@ body, html {
     height: 350px;
     font-size: 12px;
     line-height: 1;
+}
+
+.contact-us-column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 550px;
+    line-height: 1;
+}
+
+
+.about-us-column {
+    float: left;
+    width: 50%;
+    padding: 75px;
+    height: 490px;
+    line-height: 1;
+    background-color: #20639B;
+}
+
+.about-us-column h2{
+    color: #F6D55C;
+}
+
+.about-us-column p{
+    color: #FFFFFF;
 }
 
 .market-column-4 {
@@ -468,7 +495,7 @@ body, html {
     color: #20639B;
 }
 
-.tabcontent {
+.tabcontent1 {
     color: #000000;
     display: none;
     height: 100%;
@@ -571,3 +598,181 @@ label {
 .content-grey a:active {
     color: #000000;
 }
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-left: 170px;
+    margin-right: 170px;
+  }
+  
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #b4b4b4;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    height: 100%;
+    line-height: 25px;
+    border-radius: 0px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: 500;
+    opacity: 100%;
+    display: block;
+    width: 25%;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 10px 100px 30px 100px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 18px;
+    background-color: #b4b4b4;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    content: "";
+    clear: both;
+}
+
+.tabcontent .main_image2 img{
+    width: 45%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px double #000000;
+}
+
+.tabcontent .main_image1 img{
+    width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px double #000000;
+}
+
+.tabcontent img {
+    height: 120px;
+    width: 120px;
+    margin-right: 50px;
+    border: 5px solid #000000;
+}
+
+
+.mySlides {
+    display: none;
+}
+
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    margin-top: 80px;
+    position: relative;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.home-column-6 {
+    float: left;
+    width: 12.5%;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.home-column-5 {
+    float: left;
+    width: 14.3%;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.home-column-4 {
+    float: left;
+    width: 16.6%;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1;
+    border-right: 1px solid #fffffF;
+}
+
+.home-icon img {
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.home-column-6 p {
+    text-align: center;
+}
+
+.home-column-5 p {
+    text-align: center;
+}
+
+.home-column-4 p {
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.home-icon a:hover {
+    color: #000000;
+}
+
