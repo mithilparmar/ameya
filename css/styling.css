@@ -776,3 +776,54 @@ img {vertical-align: middle;}
     color: #000000;
 }
 
+
+.careers-button {
+    background-color: transparent;
+    color: #20639B; 
+    border: 2px solid #20639B;
+    margin: 0;
+    position: relative;
+    margin-left: 120px;
+    margin-top: 20px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.careers-button:hover {
+    background-color: #F6D55C;
+    color:#FFFFFF;
+    border: 2px solid #F6D55C;
+}
+
+
+.blog-column-3 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.blog-column-3 p {
+    text-align: center;
+    color: #20639B;
+}
+
+.blog-icon img{
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #20639B;
+}
+
+.blog-icon {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.blog-column-3 a {
+    text-decoration: none;
+    color: #20639B;
+}
